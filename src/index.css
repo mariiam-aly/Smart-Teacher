@@ -1,13 +1,504 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Josefin+Sans&family=Lexend:wght@300;400;500;600;700&display=swap');
+body{
+   
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+background-image:  url("./Components/Images/White Texture.svg"),  linear-gradient(74.03deg, #007ADB -13.13%, #004780 115.59%);
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.pointer { cursor: pointer; }
+
+
+/* Policy css */
+
+#PrivacyPolicy{
+
+    text-align: center;
+}
+
+.Policy{
+
+ font-family: Lexend;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11.973px;
+    line-height: 15px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color:  rgba(0,0,0,0);
+border: 0px;
+
+}
+.Policy:hover {
+    color: #F37E21;
+  }
+
+/* NavBar css */
+  .lang{
+      
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.1338px;  
+ color: white; 
+ background-color:  rgba(0,0,0,0);
+border: 0px;
+
+  }
+  .lang:hover{ 
+    border-bottom: 3px solid white;
+   }
+
+       .backgroundbf{
+        background-color:rgba(0,0,0,0);
+      }
+      .backgroundaf{
+        background: rgba(1, 86, 155, 0.5);
+    }
+
+   
+ .padding{
+     margin-right: 2rem;
+     font-family: 'Lexend'  !important;
+     font-size: 80%  !important;
+     text-transform: uppercase  !important;
+    
+ }
+ .nav-link{
+     color: white !important;
+ }
+
+ .activelink{
+    font-family: Lexend,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px; 
+    text-transform: uppercase;
+    border-bottom: 2px solid #FB9C4D;
+}
+
+
+ 
+/* Div1 css */
+#header1{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 41.9px;
+    line-height: 60px;
+}
+.p1{
+   
+font-family: Lexend;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+}
+.p2{
+    font-family: Lexend;
+font-style: normal;
+font-weight: normal;
+font-size: 18.5937px;
+line-height: 23px;
+opacity: 0.85;
+margin-bottom:50px;
+}
+
+
+
+.icon{
+    margin:auto 0.5em 1rem 0.5em;
+}
+
+
+
+
+.button1{
+
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11.973px;
+    line-height: 15px;
+    color: white;
+    text-transform: uppercase;
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin:4px 19.7px 0px 0px;
+    cursor: pointer;
+    border-radius: 20.6893px ;
+    background-color: #F37E21 ;
+    border-color: #F37E21;
+    border: 0.962293px;
+
+}
+.button1:hover {
+    background-color: #ee7009;
+}
+
+.button2{
+
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11.973px;
+    line-height: 15px;
+    color: white;
+    text-transform: uppercase;
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color:  rgba(0,0,0,0);
+border: 0.962293px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 20.6893px;
+
+}
+.button2:hover {
+    background-color:  #FFFFFF;
+    color: #F37E21;
+  }
+
+#waves{
+    z-index: -1;
+    position: absolute;
+    top:443px;
+    opacity: 30%;
+    width: 100%;
+}
+
+/* Div2 css */
+#header21{
+  
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 41.9px;
+    line-height: 60px;
+}
+.p21{
+   
+font-family: Lexend;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+}
+.p22{
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.5937px;
+    line-height: 23px;
+opacity: 0.85;
+margin-bottom:50px;
+margin-top:1px;
+}
+
+.modal-dialog, .modal-content {
+    height: 100% !important; 
+  }
+  
+  .modal-body {
+    height: 100% !important; 
+   
+  }
+
+  /* Div3 css */
+
+  .feature{
+    float:left;
+    padding-bottom:5em;
+    margin:0px 25.5135px;
+  }
+
+.t1{
+
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.1458px;
+    line-height: 21px;
+}
+
+.t2{
+    font-family: Lexend;
+font-style: normal;
+font-weight: bold;
+font-size: 32.8646px;
+line-height: 33px;
+
+}
+
+.t3{
+
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    opacity: 0.85;
+}
+
+#underline{
+    border-bottom: 5px solid #FBCE37;
+}
+  .title1{
+
+    
+font-family: Inter;
+font-style: normal;
+font-weight: 800;
+font-size: 31.5045px;
+line-height: 42px;
+
+text-align: center;
+font-feature-settings: 'salt' on, 'liga' off;
+margin-bottom: 0;
+  }
+
+  .title2{
+
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14.2386px;
+    
+    font-feature-settings: 'salt' on, 'liga' off;
+    
+      }
+
+  .P31{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.3081px;
+    line-height: 20px;
+margin-bottom: 0.5em;
+    font-feature-settings: 'salt' on, 'liga' off;
+    text-align: left;
+  }
+
+  .P32{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.2054px;
+    line-height: 17px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    text-align: left;
+  }
+.P33{
+    
+font-family: Lexend;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+}
+
+ /* Div4 css */
+.video-con{
+    position:relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+.video-con video{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+ .P41{
+   
+font-family: Lexend;
+font-style: normal;
+font-weight: 500;
+font-size: 13.4042px;
+line-height: 21px;
+  }
+
+  .P42{
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33.5105px;
+    line-height: 34px;
+  }
+.P43{
+    
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.3145px;
+    line-height: 20px; 
+    opacity: 0.85;
+}
+
+.P44{
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16.3145px;
+    line-height: 51px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    }
+
+    
+#underline2{
+    border-bottom: 5px solid #FB9C4D;
+}
+
+.Div4{
+    display:inline-block;
+    width:25%;
+    height:30%;
+    text-align:center;
+    padding-left: 0px !important;
+    
+}
+.Div4-1{
+    
+    font-family: Inter;
+font-style: normal;
+font-weight: 800;
+font-size: 62.436px;
+line-height: 24%;
+padding-top: 0.5em;
+margin-bottom: 0px;
+
+font-feature-settings: 'salt' on, 'liga' off;}
+.Div4-2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.609px;
+  
+ 
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #ADADAD;
+}
+.Div4-3{
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 13.8747px;
+
+font-feature-settings: 'salt' on, 'liga' off;
+margin: 0px 0px;
+}
+
+.center {
+    text-align: center;
+   
+}
+
+/* Contact us css */
+.pc1{
+
+    font-family: Lexend,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34.2165px;
+    line-height: 43px;
+  
+}
+.pc2{
+    font-family: Lexend, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.5937px;
+    line-height: 23px;
+    opacity: 0.85;
+}
+.pc3{
+
+    font-family: Lexend,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    
+}
+.pc4{
+    font-family: Lexend,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 35px;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    color: #FFFFFF;
+   
+}
+#underline3{
+    border-bottom: 5px solid white;
+}
+
+
+/* Footer css */
+
+.flinks{
+display: inline-block;
+text-decoration: none;
+margin-right: 1.5em;
+font-family: Lexend;
+font-style: normal;
+font-weight: 500;
+font-size: 0.8750em;
+line-height: 1.0625em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.flinks:hover{
+   color: #FB9C4D;
+}
+
+.rights{
+    
+font-family: Lexend;
+font-style: normal;
+font-weight: 500;
+font-size: 13.1667px;
+line-height: 5em;
+font-feature-settings: 'salt' on, 'liga' off;
+
+}
+.follow{
+    
+    display: inline-block;
+    font-family: Josefin Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 14px;
+text-transform: uppercase;
+
+}
+.pageName{
+    display: inline-block;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
 }

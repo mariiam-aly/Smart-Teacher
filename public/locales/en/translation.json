@@ -1,0 +1,117 @@
+{
+  "Pp": " Our Privacy Policy",
+    "nav": {
+      "link1": "Intro",
+      "link2": "About",
+      "link3": "Our Solutions",
+      "link4": "Get Applications",
+      "link5": "Contact Us"
+    },
+    "Div1": {
+      "p1": "Everything you need to when you're looking.",
+      "header": "Studying Online is now much easier.",
+      "p2": "Smart is an interesting platform that will teach you in more an interactive way.",
+      "btn1": "Show video",
+      "btn2": "Learn more"
+    },
+    "Div2": {
+      "p1": "Everything you need to when you're looking.",
+      "header": "What is Smart-platform?",
+      "p2": "Smart is a platform that allows educators to create online classes whereby they can store the course materials online manage assignments, quizzes and exams monitor due dates grade results and provide students with feedback all in one place.",
+      "btn1": "Joint the club",
+      "btn2": "Learn more"
+    },
+    "Div3": {
+      "p1": "Everything you may need",
+      "headerpt1": "Ou",
+      "headerpt2": "r Solutions",
+      "p2": "Smart is one powerful online software suite that combines all the tools needed to run a successful school or office.",
+      "st1": "Smart",
+      "st2": "-Teacher",
+      "st3": "App",
+      "st4": "Benefits of working ",
+      "st5": " with us",
+      "ft1-teacher": "Time zones ain’t no thing",
+      "ft12-teacher": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.",
+      "ft2-teacher": "Time zones ain’t no thing",
+      "ft22-teacher": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.",
+      "ft3-teacher": "Time zones ain’t no thing",
+      "ft32-teacher": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.",
+      "ft4-teacher": "Time zones ain’t no thing",
+      "ft42-teacher": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.",
+     
+      "p3t": "Download Smart-Teacher Appilcation.",
+      "ss1": "Smart",
+      "ss2": "-Student ",
+      "ss3": "App",
+      "ss4": "Benefits of working ",
+      "ss5": " with us",
+      "ft1-student": "Time zones ain’t no thing",
+      "ft12-student": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.",
+      "ft2-student": "Time zones ain’t no thing",
+      "ft22-student": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.",
+      "ft3-student": "Time zones ain’t no thing",
+      "ft32-student": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.",
+      "ft4-student": "Time zones ain’t no thing",
+      "ft42-student": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.",
+     
+      "p3s": "Download Smart-Teacher Appilcation."
+     
+      },
+      "Div4": {
+        "p1": "Everything you may need",
+        "header1": "Ge",
+        "header2": "t Application",
+        "p2": "Smart is one powerful online software suite that combines all the tools needed to run a successful school or office.",
+        "p3": "Install the app few easy steps...",
+        "no1": "1",
+        "no2": "2",
+        "no3": "3",
+        "no4": "4",
+        "t1": "Concept",
+        "t2": "Prototype",
+        "t3": "Production",
+        "t4": "Shipping",
+        "step1": "3D renderings of the physical product",
+        "step2": "Working version of the physical product ",
+        "step3": "Manufacturing the final physical product",
+        "step4": "Final physical product has begun shipping",
+        "p12": "Everything you may need",
+        "header12": "Ge",
+        "header22": "t Application",
+        "p22": "Smart is one powerful online software suite that combines all the tools needed to run a successful school or office.",
+        "p32": "Install the app few easy steps...",
+        "no12": "1",
+        "no22": "2",
+        "no32": "3",
+        "no42": "4",
+        "t12": "Concept",
+        "t22": "Prototype",
+        "t32": "Production",
+        "t42": "Shipping",
+        "step12": "3D renderings of the physical product",
+        "step22": "Working version of the physical product ",
+        "step32": "Manufacturing the final physical product",
+        "step42": "Final physical product has begun shipping"
+    
+      
+      
+        },
+        "Contact": {
+          "header1": "C",
+          "header2": "ontact Us",
+          "p1": "Smart is an interesting platform that will teach you in more aninteractive way.",    
+          "p2": "Our Email:",
+          "p3": "support@smart-teacher.app"
+        },
+        "Footer": {
+          "link1": "Intro",
+          "link2": "About",
+          "link3": "Our Solutions",
+          "link4": "Get Applications",
+          "link5": "Contact Us",
+          "p1": "Follow us",
+          "p2": "@SmartTeacher"
+        }
+      
+      }
