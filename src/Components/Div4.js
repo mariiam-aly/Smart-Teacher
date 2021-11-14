@@ -1,7 +1,7 @@
 
 
 import video from './Videos/Mine.mp4';
-import { Trans, useTranslation } from "react-i18next";
+import {useTranslation } from "react-i18next";
 import Step from './Props/Step';
 
 function Div2() {

@@ -1,6 +1,6 @@
 
 import pic from './Images/Group 12.png';
-import { Trans, useTranslation } from "react-i18next";
+import {  useTranslation } from "react-i18next";
 
 
 

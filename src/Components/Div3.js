@@ -8,7 +8,7 @@ import st from './Images/SmartTeacher.png';
 import ss from './Images/SmartStudent.png';
 import GooglePlay from './Images/Google Play Badge.png';
 import Feature from './Props/Feature';
-import { Trans, useTranslation } from "react-i18next";
+import {useTranslation } from "react-i18next";
 
 function Div3() {
   

@@ -2,17 +2,17 @@
 import companyLogo from './Images/Logo.svg';
 import En from './Images/Langen.svg';
 import Ar from './Images/Langar.svg';
-import { Trans, useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import React, {useState} from 'react';
 import Scrollspy from 'react-scrollspy';
 function Navbar() {
 
   const { t, i18n } = useTranslation();
-
-  const changeLanguage = (language,l) => {
+const[lang,setlang]=useState(true);
+  const changeLanguage = (language,x,l) => {
     i18n.changeLanguage(language);
-  document.getElementById("root").style.direction=l;
-   
+  //document.getElementById("root").style.direction=x;
+  setlang(l);
   };
 
 
@@ -56,12 +56,12 @@ function Navbar() {
               <li className="nav-item padding">
                 <a className="nav-link" href="#div4">{t("nav.link4")}</a>
               </li>
-              <li className="nav-item padding">
+              <li style={{marginRight:"6em"}} className="nav-item padding">
                 <a className="nav-link" href="#contact">{t("nav.link5")}</a>
               </li>
               <li className="nav-item padding">
               <img src={En} alt="English" className="img-fluid pointer" />
-              <button  className="lang" onClick={() => changeLanguage("en","ltr")}>
+              <button   className={lang?"lang chosen":"lang"} onClick={() => changeLanguage("en","ltr",true)}>
       
               English
               
@@ -69,8 +69,8 @@ function Navbar() {
             </li>
            
               <li className="nav-item padding">
-              <button className="lang" onClick={() => changeLanguage("ar","rtl")}>العربية</button>
-              <img src={Ar} alt="English" className="img-fluid pointer" />
+              <button  className={lang?"lang2 ":"lang2 chosen"} onClick={() => changeLanguage("ar","rtl",false)}>العربية</button>
+              <img src={Ar} alt="Arabic" className="img-fluid pointer" />
             </li>
         </Scrollspy>
            

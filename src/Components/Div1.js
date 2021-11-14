@@ -1,8 +1,8 @@
 
 import pic from './Images/Online lesson _Isometric 1.png';
 import waves from './Images/Waves.png';
-import React, {useState} from 'react';
-import { Trans, useTranslation } from "react-i18next";
+import React from 'react';
+import { useTranslation } from "react-i18next";
 
 function Div1() {
   const { t, i18n } = useTranslation();
