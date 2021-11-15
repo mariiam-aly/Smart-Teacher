@@ -7,11 +7,11 @@ import { useTranslation } from "react-i18next";
 import React from 'react';
 function Footer() {
    // FIXME: i18n never used
-   const { t, i18n } = useTranslation();
+   const { t} = useTranslation();
    return (
       <div style={{ color: "white" }} className="container " >
          <div style={{ textAlign: "center", paddingTop: "80px" }}>
-            <div style={{ paddingBottom: "5em" }} className="row">
+            <div style={{ paddingBottom: "3em" }} className="row">
 
                <div className="col-lg-3">
                   <img style={{ minWidth: "200px" }} src={companyLogo} alt="" className="img-fluid" />

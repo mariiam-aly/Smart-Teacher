@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 
 function Div1() {
    // FIXME: i18n never used
-  const { t, i18n } = useTranslation();
+  const { t} = useTranslation();
  
 
     return (
