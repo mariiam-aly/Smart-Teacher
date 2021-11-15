@@ -6,21 +6,22 @@ import Div4 from "./Components/Div4";
 import Footer from "./Components/Footer";
 import Pp from "./Components/Pp";
 import Contact from "./Components/Contact";
+import React from 'react';
 function App() {
- 
+
   return (
     <div >
-    <Pp/>
-   <Navbar/>
- 
-   <Div1/>
-   <Div2/>
-   
-   <Div3/>
-   <Div4/>
-   <Contact/>
-  <Footer/>
-   
+      <Pp />
+      <Navbar />
+
+      <Div1 />
+      <Div2 />
+
+      <Div3 />
+      <Div4 />
+      <Contact />
+      <Footer />
+
     </div>
   );
 }
