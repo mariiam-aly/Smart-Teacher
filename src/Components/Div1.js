@@ -21,8 +21,8 @@ function Div1() {
      <h1 id="header1">{t("Div1.header")}</h1>
      <p className="p2 ">{t("Div1.p2")}</p>
      {/* FIXME: the hrefs of the buttons are not declared */}
-     <a href="#"><button className="button1" >{t("Div1.btn1")}</button></a>
-     <a href="#"><button className="button2">{t("Div1.btn2")}</button></a>
+     <a href="#div4"><button className="button1" >{t("Div1.btn1")}</button></a>
+     <a href="#div3"><button className="button2">{t("Div1.btn2")}</button></a>
      </div>
      <div  className="col-md  order-first order-md-0">
      <img src={pic} alt=""  className="d-inline-block align-text-top img-fluid"/>

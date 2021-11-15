@@ -19,8 +19,8 @@ function Div2() {
             <h1 id="header21">{t("Div2.header")}
             </h1>
             <p className="p22 ">{t("Div2.p2")}</p>
-            <a href="#"><button className="button1">{t("Div2.btn1")}</button></a>
-            <a href="#"><button className="button2">{t("Div2.btn2")}</button></a>
+            <a href="#div4"><button className="button1">{t("Div2.btn1")}</button></a>
+            <a href="#div3"><button className="button2">{t("Div2.btn2")}</button></a>
           </div>
 
         </div>
