@@ -1,5 +1,6 @@
 import bg from './Images/Group4586.png';
 import mail from './Images/Email.svg';
+import Links from './Links/Links';
 import { useTranslation } from "react-i18next";
 import React from 'react';
 function Contact() {
@@ -14,7 +15,7 @@ function Contact() {
         <p className="pc2">{t("Contact.p1")}</p>
         <img src={mail} alt="" className="mail img-fluid" />
 
-        <p className="pc3">{t("Contact.p2")} <a className="pc4" href="mailto:webmaster@example.com">{t("Contact.p3")}</a></p>
+        <p className="pc3">{t("Contact.p2")} <a className="pc4" href={Links.Email}>{t("Contact.p3")}</a></p>
 
       </div>
 

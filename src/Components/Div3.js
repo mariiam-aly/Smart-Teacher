@@ -8,6 +8,7 @@ import st from './Images/SmartTeacher.png';
 import ss from './Images/SmartStudent.png';
 import GooglePlay from './Images/Google Play Badge.png';
 import Feature from './Props/Feature';
+import Links from './Links/Links';
 import { useTranslation } from "react-i18next";
 import React from 'react';
 function Div3() {
@@ -48,7 +49,7 @@ function Div3() {
                      <Feature image={ft1} title={t("Div3.ft3-teacher")} text={t("Div3.ft32-teacher")} />
                      <Feature image={ft2} title={t("Div3.ft4-teacher")} text={t("Div3.ft42-teacher")} />
                   </div>
-                  <a target="_blank" rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=com.wazos.smart_teacher">  <img style={{ marginBottom: "0.5em" }} src={GooglePlay} alt="Google Play" className="img-fluid pointer" /></a>
+                  <a target="_blank" rel="noopener noreferrer" href={Links.Smart_Teacher}>  <img style={{ marginBottom: "0.5em" }} src={GooglePlay} alt="Google Play" className="img-fluid pointer" /></a>
                   <p className="P33">{t("Div3.p3t")}</p>
                </div>
                <div style={{ textAlign: "center" }} className="col-lg ">
@@ -68,7 +69,7 @@ function Div3() {
                      <Feature image={ft3} title={t("Div3.ft3-student")} text={t("Div3.ft32-student")} />
                      <Feature image={ft4} title={t("Div3.ft4-student")} text={t("Div3.ft42-student")} />
                   </div>
-                  <a target="_blank" rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=com.wazos.smart_student">  <img style={{ marginBottom: "0.5em" }} src={GooglePlay} alt="Google Play" className="img-fluid pointer" /></a>
+                  <a target="_blank" rel="noopener noreferrer" href={Links.Smart_Student}>  <img style={{ marginBottom: "0.5em" }} src={GooglePlay} alt="Google Play" className="img-fluid pointer" /></a>
                   <p className="P33">{t("Div3.p3s")}</p>
                </div>
 
