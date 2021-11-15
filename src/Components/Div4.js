@@ -6,7 +6,7 @@ import Step from './Props/Step';
 
 function Div2() {
       // FIXME: i18n never used
-      const { t, i18n } = useTranslation();
+      const { t} = useTranslation();
       return (
             <div style={{ marginBottom: "10em" }} id="div4">
 
