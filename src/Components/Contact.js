@@ -3,11 +3,11 @@ import mail from './Images/Email.svg';
 import { useTranslation } from "react-i18next";
 import React from 'react';
 function Contact() {
-  const { t, i18n } = useTranslation();
+  const { t} = useTranslation();
   return (
 
     <div id="contact" className="img-fluid" style={{
-      backgroundImage: `url(${bg})`, backgroundSize: "100% auto", backgroundRepeat: "no-repeat", backgroundSize: "cover"
+      backgroundImage: `url(${bg})`, backgroundRepeat: "no-repeat", backgroundSize: "cover"
     }}>
       <div style={{ margin: "90px auto auto auto", color: "white", paddingTop: "6.5em", paddingBottom: "10em" }} className="container " >
         <p className="pc1"><span id="underline3">{t("Contact.header1")}</span>{t("Contact.header2")}</p>
