@@ -14,6 +14,7 @@ background-image:  url("./Components/Images/White Texture.svg"),  linear-gradien
 #PrivacyPolicy{
 
     text-align: center;
+    padding-bottom: 1em;
 }
 
 .Policy{
@@ -402,7 +403,7 @@ font-weight: 800;
 font-size: 62.436px;
 line-height: 24%;
 padding-top: 0.5em;
-margin-bottom: 0px;
+
 
 font-feature-settings: 'salt' on, 'liga' off;}
 .Div4-2{
