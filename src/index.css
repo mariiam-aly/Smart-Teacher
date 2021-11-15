@@ -60,14 +60,14 @@ color: white;
 background-color:  rgba(0,0,0,0);
 border: 0px;
   }
-  .lang:hover{ 
-    border-bottom: 3px solid rgba(253, 253, 253, 0.74);
-   }
-   .lang2:hover{ 
-    border-bottom: 3px solid rgba(253, 253, 253, 0.74);
-   }
-   .chosen{ 
-    border-bottom: 3px solid white;
+  
+   .dot{
+    height: 0.4em;
+    width: 0.4em;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin:auto 0.4em 0.2em auto;
    }
        .backgroundbf{
         background-color:rgba(0,0,0,0);

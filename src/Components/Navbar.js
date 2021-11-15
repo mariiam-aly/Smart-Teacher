@@ -61,15 +61,16 @@ const[lang,setlang]=useState(true);
               </li>
               <li className="nav-item padding">
               <img src={En} alt="English" className="img-fluid pointer" />
-              <button   className={lang?"lang chosen":"lang"} onClick={() => changeLanguage("en","ltr",true)}>
+              <button   className="lang" onClick={() => changeLanguage("en","ltr",true)}>
       
-              English
-              
+              English <br/>
+              {lang?  <span class="dot"></span> : null}
               </button>
             </li>
            
               <li className="nav-item padding">
-              <button  className={lang?"lang2 ":"lang2 chosen"} onClick={() => changeLanguage("ar","rtl",false)}>العربية</button>
+              <button  className="lang2 " onClick={() => changeLanguage("ar","rtl",false)}>العربية
+           <br/>   {!lang?  <span class="dot"></span> : null}</button>
               <img src={Ar} alt="Arabic" className="img-fluid pointer" />
             </li>
         </Scrollspy>
