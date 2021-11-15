@@ -16,7 +16,7 @@ function Div3() {
    return (
       <div id="div3" className="img-fluid" style={{
          // FIXME: duplicate keys backgroundSize
-         backgroundImage: `url(${bg})`, backgroundSize: "100% auto", backgroundRepeat: "no-repeat", backgroundSize: "cover"
+         backgroundImage: `url(${bg})`, backgroundRepeat: "no-repeat", backgroundSize: "cover"
       }}>
          <div style={{ margin: "90px auto auto auto", color: "white" }} className="container " >
             <div style={{ textAlign: "center", paddingTop: "50px", paddingBottom: "42px" }}>
