@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div >
-      <Pp />
+    
       <Navbar />
 
       <Div1 />
@@ -21,7 +21,7 @@ function App() {
       <Div4 />
       <Contact />
       <Footer />
-
+      <Pp />
     </div>
   );
 }
