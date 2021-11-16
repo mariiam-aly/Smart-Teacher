@@ -19,7 +19,7 @@ function Div3() {
          // FIXME: duplicate keys backgroundSize
          backgroundImage: `url(${bg})`, backgroundRepeat: "no-repeat", backgroundSize: "cover"
       }}>
-         <div style={{ margin: "90px auto auto auto", color: "white" }} className="container " >
+         <div style={{ margin: "90px auto auto auto", color: "white" }} className="container" >
             <div style={{ textAlign: "center", paddingTop: "50px", paddingBottom: "42px" }}>
                <p className="t1">{t("Div3.p1")}</p>
 
@@ -49,6 +49,9 @@ function Div3() {
                      <Feature image={ft1} title={t("Div3.ft3-teacher")} text={t("Div3.ft32-teacher")} />
                      <Feature image={ft2} title={t("Div3.ft4-teacher")} text={t("Div3.ft42-teacher")} />
                   </div>
+                  <div className="row">
+                     <Feature image={ft1} title={t("Div3.ft5-teacher")} text={t("Div3.ft52-teacher")} />
+                  </div>
                   <a target="_blank" rel="noopener noreferrer" href={Links.Smart_Teacher}>  <img style={{ marginBottom: "0.5em" }} src={GooglePlay} alt="Google Play" className="img-fluid pointer" /></a>
                   <p className="P33">{t("Div3.p3t")}</p>
                </div>
@@ -68,6 +71,10 @@ function Div3() {
                   <div className="row">
                      <Feature image={ft3} title={t("Div3.ft3-student")} text={t("Div3.ft32-student")} />
                      <Feature image={ft4} title={t("Div3.ft4-student")} text={t("Div3.ft42-student")} />
+                  </div>
+
+                  <div className="row">
+                     <Feature image={ft3} title={t("Div3.ft5-student")} text={t("Div3.ft52-student")} />
                   </div>
                   <a target="_blank" rel="noopener noreferrer" href={Links.Smart_Student}>  <img style={{ marginBottom: "0.5em" }} src={GooglePlay} alt="Google Play" className="img-fluid pointer" /></a>
                   <p className="P33">{t("Div3.p3s")}</p>

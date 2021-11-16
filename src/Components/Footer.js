@@ -66,7 +66,7 @@ function Footer() {
                      <p className="follow">{t("Footer.p1")}	&mdash;</p>
                      <a target="_blank" rel="noopener noreferrer" href={Links.Telegram_Smart_Student}><img src={telegram} alt="" className="icon img-fluid pointer" /></a>
 
-                     <p className="pageName">{t("Footer.p2")}</p>
+                     <p className="pageName">{t("Footer.p3")}</p>
                   </div>
                </div>
 
