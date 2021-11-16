@@ -3,6 +3,7 @@ import companyLogo from './Images/Logo.svg';
 import ss from './Images/SmartStudent.svg';
 import fb from './Images/FaceBook.svg';
 import GooglePlay from './Images/Google Play Badge.png';
+import telegram from './Images/Telegram_logo.svg'
 import Links from './Links/Links';
 import { useTranslation } from "react-i18next";
 import React from 'react';
@@ -52,6 +53,18 @@ function Footer() {
                   <div style={{ marginTop: "1.5em" }}>
                      <p className="follow">{t("Footer.p1")}	&mdash;</p>
                      <a target="_blank" rel="noopener noreferrer" href={Links.FaceBook}><img src={fb} alt="" className="icon img-fluid pointer" /></a>
+
+                     <p className="pageName">{t("Footer.p2")}</p>
+                  </div>
+                  <div style={{ marginTop: "1.5em" }}>
+                     <p className="follow">{t("Footer.p1")}	&mdash;</p>
+                     <a target="_blank" rel="noopener noreferrer" href={Links.Telegram_Smart_Teacher}><img src={telegram} alt="" className="icon img-fluid pointer" /></a>
+
+                     <p className="pageName">{t("Footer.p2")}</p>
+                  </div>
+                  <div style={{ marginTop: "1.5em" }}>
+                     <p className="follow">{t("Footer.p1")}	&mdash;</p>
+                     <a target="_blank" rel="noopener noreferrer" href={Links.Telegram_Smart_Student}><img src={telegram} alt="" className="icon img-fluid pointer" /></a>
 
                      <p className="pageName">{t("Footer.p2")}</p>
                   </div>
