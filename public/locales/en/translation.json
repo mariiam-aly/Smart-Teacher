@@ -10,14 +10,14 @@
     "Div1": {
       "p1": "Everything you need to when you're looking.",
       "header": "Studying Online is now much easier.",
-      "p2": "Smart is an interesting platform that will teach you in more an interactive way.",
+      "p2": "Smart Teacher is an interesting platform that will teach you in more an interactive way.",
       "btn1": "Show video",
       "btn2": "Learn more"
     },
     "Div2": {
       "p1": "Everything you need to when you're looking.",
-      "header": "What is Smart-platform?",
-      "p2": "Smart is a platform that allows educators to create online classes whereby they can store the course materials online manage assignments, quizzes and exams monitor due dates grade results and provide students with feedback all in one place.",
+      "header": "What is Smart Teacher?",
+      "p2": "Smart Teacher is an educational platform allows the interaction between the professor and the student. Smart Teacher application has many functions such as preparing assignments, home works, tests and the ability to electronically correct them, sending grades to students, storing them in a database and making an electronic copy of them. It also allows the professor to add multiple sources for the student, such as PDF files, add links to video files from YouTube platforms, and add links to important references and recent books that allow the student to benefit and see what is new in the academic content presented to him. The following video explores the methods of registration and signing into Smart Teacher application, and how to use it.",
       "btn1": "Joint the club",
       "btn2": "Learn more"
     },
@@ -27,35 +27,39 @@
       "headerpt2": "r Solutions",
       "p2": "Smart is one powerful online software suite that combines all the tools needed to run a successful school or office.",
       "st1": "Smart",
-      "st2": "-Teacher",
+      "st2": " Teacher",
       "st3": "App",
       "st4": "Benefits of working ",
       "st5": " with us",
-      "ft1-teacher": "Time zones ain’t no thing",
-      "ft12-teacher": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.",
-      "ft2-teacher": "Time zones ain’t no thing",
-      "ft22-teacher": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.",
-      "ft3-teacher": "Time zones ain’t no thing",
-      "ft32-teacher": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.",
-      "ft4-teacher": "Time zones ain’t no thing",
-      "ft42-teacher": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.",
+      "ft1-teacher": "Study Resources",
+      "ft12-teacher": "Variation of study resources provided to the student.",
+      "ft2-teacher": "Protecting Copyrights",
+      "ft22-teacher": "Protecting the copyrights of the academic materials provided to the student.",
+      "ft3-teacher": "Communicate Anytime",
+      "ft32-teacher": "Ease of communication between the professor and the student.",
+      "ft4-teacher": "Online Assessment",
+      "ft42-teacher": "Continuous evaluation the students academic level through the assignments and tests.",
+      "ft5-teacher": "E-Learning",
+      "ft52-teacher": "Supporting the e-learning system.",
      
       "p3t": "Download Smart Teacher Application.",
       "ss1": "Smart",
-      "ss2": "-Student ",
+      "ss2": " Student ",
       "ss3": "App",
       "ss4": "Benefits of working ",
       "ss5": " with us",
-      "ft1-student": "Time zones ain’t no thing",
-      "ft12-student": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.",
-      "ft2-student": "Time zones ain’t no thing",
-      "ft22-student": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.",
-      "ft3-student": "Time zones ain’t no thing",
-      "ft32-student": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.",
-      "ft4-student": "Time zones ain’t no thing",
-      "ft42-student": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.",
+      "ft1-student": "Easy to Use",
+      "ft12-student": "Ease of use of the Smart Student platform through mobile application",
+      "ft2-student": "One-Touch to Register",
+      "ft22-student": "Ease of registration with Google account",
+      "ft3-student": "Communication Channel",
+      "ft32-student": "Interaction between the student and the professor through the messaging service",
+      "ft4-student": "Educational Resources",
+      "ft42-student": "Multiple educational resources for the course (PDF’s, Video’s, Reference link’s…).",
+      "ft5-student": "Continuos Assessment",
+      "ft52-student": "Submit assignments and perform tests through the Smart Student platform.",
      
-      "p3s": "Download Smart Teacher Application."
+      "p3s": "Download Smart Student Application."
      
       },
       "Div4": {
@@ -115,6 +119,6 @@
           "i2": "Smart\n Teacher",
           "i3": "Smart\n Student",
           "i4": "Smart\n Student"
-        }
+   }
       
       }

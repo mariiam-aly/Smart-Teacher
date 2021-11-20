@@ -60,12 +60,12 @@ function Footer() {
                      <p className="pageName">{t("Footer.i1")}</p>
                      </div>
                      <div  className="socials">
-                     <a target="_blank" rel="noopener noreferrer" href={Links.Telegram_Teacher}><img src={tel} alt="" className="icon img-fluid pointer" /></a>
+                     <a target="_blank" rel="noopener noreferrer" href={Links.Telegram_Smart_Teacher}><img src={tel} alt="" className="icon img-fluid pointer" /></a>
 
                      <p className="pageName">{t("Footer.i1")}</p>
                      </div>
                      <div  className="socials">
-                     <a target="_blank" rel="noopener noreferrer" href={Links.Telegram_Student}><img src={tel} alt="" className="icon img-fluid pointer" /></a>
+                     <a target="_blank" rel="noopener noreferrer" href={Links.Telegram_Smart_Student}><img src={tel} alt="" className="icon img-fluid pointer" /></a>
 
                      <p className="pageName">{t("Footer.i3")}</p>
                      </div>
@@ -76,6 +76,7 @@ function Footer() {
                      </div>
                      </div>
                   </div>
+                 
                </div>
 
             </div>
