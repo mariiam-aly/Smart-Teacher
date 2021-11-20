@@ -128,19 +128,19 @@ font-weight: normal;
 font-size: 18.5937px;
 line-height: 23px;
 opacity: 0.85;
-margin-bottom:50px;
+margin-bottom:25px;
 }
 
 
 
-.icon{
-    margin:auto 0.5em 1rem 0.5em;
-}
+
 
 
 
 
 .button1{
+
+box-sizing: content-box;
 
     font-family: Lexend;
     font-style: normal;
@@ -149,7 +149,7 @@ margin-bottom:50px;
     line-height: 15px;
     color: white;
     text-transform: uppercase;
-    padding: 14px 40px;
+    padding: 1em 3em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -166,7 +166,8 @@ margin-bottom:50px;
 }
 
 .button2{
-
+   
+box-sizing: content-box;
     font-family: Lexend;
     font-style: normal;
     font-weight: bold;
@@ -174,7 +175,7 @@ margin-bottom:50px;
     line-height: 15px;
     color: white;
     text-transform: uppercase;
-    padding: 14px 40px;
+    padding: 1em 3em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -182,7 +183,7 @@ margin-bottom:50px;
     cursor: pointer;
     background-color:  rgba(0,0,0,0);
 border: 0.962293px solid #FFFFFF;
-box-sizing: border-box;
+
 border-radius: 20.6893px;
 
 }
@@ -223,7 +224,7 @@ line-height: 22px;
     font-size: 18.5937px;
     line-height: 23px;
 opacity: 0.85;
-margin-bottom:50px;
+margin-bottom:25px;
 margin-top:1px;
 }
 
@@ -530,10 +531,21 @@ text-transform: uppercase;
 
 }
 .pageName{
+  
+
+    font-family: Josefin Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 11px;
+white-space: pre-line;
+text-transform: uppercase;
+}
+.icon{
+    margin:auto 0.5em 0.5rem 0.5em;
+}
+
+.socials{
     display: inline-block;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
+    margin-left: 0.5em;
 }
