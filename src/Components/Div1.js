@@ -5,7 +5,7 @@ import React from 'react';
 import { useTranslation } from "react-i18next";
 
 function Div1() {
-   // FIXME: i18n never used
+ 
   const { t} = useTranslation();
  
 
@@ -20,7 +20,7 @@ function Div1() {
         <p className="p1 " style={{marginBottom:"0px"}}>  {t("Div1.p1")}</p>
      <h1 id="header1">{t("Div1.header")}</h1>
      <p className="p2 ">{t("Div1.p2")}</p>
-     {/* FIXME: the hrefs of the buttons are not declared */}
+    
      <a href="#div4"><button className="button1" >{t("Div1.btn1")}</button></a>
      <a href="#div3"><button className="button2">{t("Div1.btn2")}</button></a>
      </div>
