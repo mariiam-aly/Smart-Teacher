@@ -1,10 +1,28 @@
 import pdf from './Privacy Policy.pdf';
+import GooglePlay from './Images/Download/Downloaden.png';
+import GooglePlay2 from './Images/Download/Downloadar.png';
 import { useTranslation } from "react-i18next";
-import React from 'react';
+import {LanguageContext} from"./Context";
+import Links from './Links/Links';
+import React,{useContext}  from 'react';
 function Pp() {
-  // FIXME: This is a hack to get the pdf to load + i18n never used
+  const {Language}= useContext(LanguageContext);
   const { t} = useTranslation();
-  return (<div id="PrivacyPolicy">
+  return (
+    
+    
+    
+    <div id="PrivacyPolicy">
+    <div className="row" style={{marginRight:0,marginBottom:"1em"}}>
+    <div className="col" >
+
+    {Language? <a target="_blank" rel="noopener noreferrer" href={Links.Smart_Teacher}>  <img  src={GooglePlay} alt="Google Play" className="img-fluid pointer" /></a>
+:null}
+{!Language? <a target="_blank" rel="noopener noreferrer" href={Links.Smart_Teacher}>  <img  src={GooglePlay2} alt="Google Play" className="img-fluid pointer" /></a>
+:null}
+    </div>
+    <div className="col">
+    <div  style={{position:"relative",top:"1em"}}>
     <button type="button" className="Policy" data-bs-toggle="modal" data-bs-target="#PDF">
 
       {t("Pp")}
@@ -24,6 +42,14 @@ function Pp() {
 
         </div>
       </div>
+    </div>
+    </div>
+    </div>
+    <div className="col">
+    {Language?  <a target="_blank" rel="noopener noreferrer" href={Links.Smart_Student}>  <img  src={GooglePlay} alt="Google Play" className="img-fluid pointer" /></a>
+    :null}
+    {!Language?  <a target="_blank" rel="noopener noreferrer" href={Links.Smart_Student}>  <img  src={GooglePlay2} alt="Google Play" className="img-fluid pointer" /></a>
+    :null}</div>
     </div>
   </div>);
 }
