@@ -6,11 +6,12 @@ import Div4 from "./Components/Div4";
 import Footer from "./Components/Footer";
 import Pp from "./Components/Pp";
 import Contact from "./Components/Contact";
-import React from 'react';
+import {LanguageContext} from"./Components/Context";
+import React, {useState} from 'react';
 function App() {
-
+const [Language, SetLanguage]=useState(true);
   return (
-    <div >
+    <LanguageContext.Provider value={{Language, SetLanguage}}>
     
       <Navbar />
 
@@ -22,7 +23,7 @@ function App() {
       <Contact />
       <Footer />
       <Pp />
-    </div>
+    </LanguageContext.Provider>
   );
 }
 

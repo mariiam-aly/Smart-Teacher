@@ -3,16 +3,20 @@ import companyLogo from './Images/Logo.svg';
 import En from './Images/Langen.svg';
 import Ar from './Images/Langar.svg';
 import { useTranslation } from "react-i18next";
-import React, {useState} from 'react';
+import {LanguageContext} from"./Context";
+import React, {useContext, useState} from 'react';
 import Scrollspy from 'react-scrollspy';
 function Navbar() {
+const {Language, SetLanguage}= useContext(LanguageContext);
 
   const { t, i18n } = useTranslation();
-const[lang,setlang]=useState(true);
+  
+//const[lang,setlang]=useState(true);
+
   const changeLanguage = (language,x,l) => {
     i18n.changeLanguage(language);
   //document.getElementById("root").style.direction=x;
-  setlang(l);
+  SetLanguage(l);
   };
 
 
@@ -64,13 +68,13 @@ const[lang,setlang]=useState(true);
               <button   className="lang" onClick={() => changeLanguage("en","ltr",true)}>
       
               English <br/>
-              {lang?  <span className="dot"></span> : null}
+              {Language?  <span className="dot"></span> : null}
               </button>
             </li>
            
               <li className="nav-item padding">
               <button  className="lang2 " onClick={() => changeLanguage("ar","rtl",false)}>العربية
-           <br/>   {!lang?  <span className="dot"></span> : null}</button>
+           <br/>   {!Language?  <span className="dot"></span> : null}</button>
               <img src={Ar} alt="Arabic" className="img-fluid pointer" />
             </li>
         </Scrollspy>
@@ -83,4 +87,3 @@ const[lang,setlang]=useState(true);
   }
   
   export default Navbar;
-  
