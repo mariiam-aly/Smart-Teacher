@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import Step from './Props/Step';
 
 function Div2() {
-      // FIXME: i18n never used
+   
       const { t} = useTranslation();
       return (
             <div style={{ marginBottom: "10em" }} id="div4">
