@@ -523,10 +523,10 @@ font-feature-settings: 'salt' on, 'liga' off;
     
     display: inline-block;
     font-family: Josefin Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 14px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.3697px;
+    line-height: 12px;
 text-transform: uppercase;
 
 }
